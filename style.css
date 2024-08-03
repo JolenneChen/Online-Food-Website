@@ -1,0 +1,39 @@
+html{
+    font-family:"Rubik",sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+li{
+    /* remove the marker or bullets */
+    list-style: none;
+}
+
+a{
+    /* inhereit from its parent element */
+    font: inherit;
+    /* remove the underlines from the link */
+    text-decoration: none;
+}
+
+button{
+    font: inherit;
+    border: none;
+    background: none;
+
+}
+
+img, svg,ion-icon,span,button{
+    /* starts on a new line */
+    display: block;
+}
+
+.container{
+    position: relative;
+    max-width: 1440px;
+    /* margin auto center aline the html elements */
+    margin: auto;
+    background: #ffffff;
+    overflow: hidden;
+
+}
