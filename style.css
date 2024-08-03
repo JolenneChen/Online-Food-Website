@@ -3,7 +3,6 @@ html{
     scroll-behavior: smooth;
 }
 
-/* Header */
 li{
     /* remove the marker or bullets */
     list-style: none;
@@ -36,4 +35,72 @@ img, svg,ion-icon,span,button{
     background: #ffffff;
     overflow: hidden;
 
+}
+
+/* Header */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    /* moving the element along the x axis */
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 20px 30px 10px 10px ;
+    background: hsla(0, 0%, 100%, 0.99);
+    border-bottom: 1px solid hsla(0, 0%, 0%, 0.05);
+    box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.05);
+    z-index: 5;
+}
+
+.navbar-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-nav{
+    position: static;
+    /* make transparent */
+    opacity: 1;
+    width: auto;
+    height: auto;
+    padding: 0;
+    /* laying elements in a row */
+    display: flex;
+    align-items: left;
+    gap: 30px;
+}
+
+.nav-link{
+    color: black;
+    font-size: 22px;
+    /* effect with a slow start */
+    transition: 0.25s ease ;
+    
+
+}
+
+.nav-link:hover{
+    color: rgb(75, 127, 204);
+}
+
+/* home */
+.home{
+    /* grid layout, rows and coloms like microsoft excel */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+    padding: 10px;
+
+}
+
+.home-left{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.1;
+    /* spacing between letters */
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    
 }
