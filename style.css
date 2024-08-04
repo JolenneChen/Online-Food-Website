@@ -104,3 +104,59 @@ img, svg,ion-icon,span,button{
     margin-bottom: 30px;
     
 }
+
+.home-right{
+    position: relative;
+    aspect-ratio: 10/11;
+    padding-top: 20%;
+
+}
+
+main{
+    margin-top: 300px;
+
+}
+
+.food-img{
+    position: absolute ;
+    width: 60%;
+
+}
+
+.food-1{
+    top: 25%;
+    left: -4%;
+}
+
+.food-2{
+    top: 12%;
+    right: -4%;
+}
+
+.food-3{
+    top: 40%;
+    right: -5%;
+}
+
+.about{
+    padding-top: 120px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.about-right .section-title{
+    margin-bottom: 30px;
+
+}
+
+.about-right p{
+    max-width: 100%;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    
+}
