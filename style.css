@@ -160,3 +160,34 @@ main{
     line-height: 1.5;
     
 }
+
+/* service */
+.services{
+    padding: 110px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.card-number{
+    font-size: 48px;
+    font-family: "Monoton", cursive;
+    color: rgb(163, 163, 49);
+    margin: 0;
+
+}
+
+.card-heading{
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+    display: inline;
+}
+
+.card-text{
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+}
