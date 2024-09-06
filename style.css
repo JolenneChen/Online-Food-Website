@@ -213,3 +213,116 @@ main{
     margin-bottom: 50px;
 
 }
+
+.menu-card .img-box{
+    position: relative;
+    overflow: hidden;
+}
+
+.menu-card .menu-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* resized to fit it's container */
+
+}
+
+.menu-card:hover .menu-img{
+    transform: scale(1.05);
+}
+
+.menu-card .wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    background-color: #f3f2f2;
+    margin-bottom: 0px;
+}
+
+.menu-card .wrapper .menu-price{
+    background-color: #f7c532;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px;
+
+}
+
+.menu-card .wrapper .small {
+    font-size:  12px;
+    font-weight: 400;
+    margin-top: 5px;
+
+}
+
+.menu-card .menu-text{
+    font-size: 14px;
+    color: #999999;
+    line-height: 1.6;
+    letter-spacing: 0.4px;
+    margin-bottom: 15px;
+}
+
+.menu-card .menu-rating{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #f7c532;
+
+}
+
+.menu-card .menu-rating img{
+    height: 30px;
+    width : 30px;
+
+}
+
+.menu .btn-primary{
+    background: #f7c532;
+    width: 100px;
+    height: 50px;
+    border-radius: 2px;
+    transition: 0.25s ease;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding-top: 5px;
+    position: relative;
+}
+
+/* testimonials section */
+.testimonials{
+    padding: 120px;
+}
+
+.testimonials .section-title{
+    margin-bottom: 15px;
+    font-size: 32px;
+}
+
+.testimonials .testimonials-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.testimonials-card .card-title {
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 24px;
+
+}
+
+.testimonials-card .testimonials-rating{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
