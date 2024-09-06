@@ -191,3 +191,25 @@ main{
     font-size: 16px;
     line-height: 1.5;
 }
+
+
+/* Menu Section */
+
+.menu{
+    padding : 120px;
+
+
+}
+
+.menu .section-title{
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.menu .menu-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 50px;
+
+}
